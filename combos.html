@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combos &amp; Family Packs - CLOUD KITCHEN</title>
+  <meta name="description" content="Discover affordable meal combos and family food sharing platters. Single meal boxes, couple platters, biryani boxes, and group feasts.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <span class="announcement-badge">Affordable Combos</span>
+    <span>Save more with curated single meals, couple packs, and large family sharing platters. All offers are demo offers.</span>
+  </div>
+
+  <!-- Global Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo" aria-label="CLOUD KITCHEN Homepage">
+        <div class="brand-icon">CK</div>
+        <div class="brand-text">
+          <span class="brand-title">CLOUD KITCHEN</span>
+          <span class="brand-subtitle">ONLINE FOOD ORDERING</span>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="menu.html" class="nav-link">Food Menu</a>
+        <a href="indian-food.html" class="nav-link">Indian Food &amp; Biryani</a>
+        <a href="fast-food.html" class="nav-link">Fast Food &amp; Chinese</a>
+        <a href="combos.html" class="nav-link active">Combos &amp; Family Packs</a>
+        <a href="how-it-works.html" class="nav-link">How It Works</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="cart-btn js-cart-toggle" aria-label="View demo cart">
+          <span class="cart-icon-wrapper">
+            &#128722;
+            <span class="cart-count">0</span>
+          </span>
+          <span>Cart</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header Banner -->
+  <section class="section" style="padding: 3.5rem 0 2rem; background: #ffffff; border-bottom: 1px solid var(--border-color);">
+    <div class="container" style="text-align: center; max-width: 750px;">
+      <span class="section-tag">Value Feasts &amp; Bundles</span>
+      <h1>Combos &amp; Family Sharing Packs</h1>
+      <p style="font-size: 1.1rem; margin-top: 0.75rem;">
+        Smartly curated meals for single diners, couples, families, and group celebrations. Wholesome variety packed securely for delivery.
+      </p>
+    </div>
+  </section>
+
+  <!-- Dual Feature Placeholders 7 & 8 -->
+  <section class="section" style="padding-bottom: 2rem;">
+    <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+      <!-- Planned Image Slot 7: food-combo -->
+      <!-- PLANNED_IMAGE: food-combo.jpg -->
+      <div class="img-placeholder placeholder-food-combo ratio-16x9" role="img" aria-label="Meal combo with multiple food items presentation">
+        <div class="placeholder-badge"><span class="dot"></span> food-combo.jpg</div>
+        <div class="placeholder-graphic">
+          <div class="graphic-icon">&#127857;</div>
+        </div>
+        <div class="placeholder-caption">
+          <h4>Curated Meal Combos</h4>
+          <p>Mains, fresh breads, crunchy sides &amp; cold beverages bundled together.</p>
+        </div>
+      </div>
+
+      <!-- Planned Image Slot 8: family-pack -->
+      <!-- PLANNED_IMAGE: family-pack.jpg -->
+      <div class="img-placeholder placeholder-family-pack ratio-16x9" role="img" aria-label="Family meal pack or sharing platter presentation">
+        <div class="placeholder-badge"><span class="dot"></span> family-pack.jpg</div>
+        <div class="placeholder-graphic">
+          <div class="graphic-icon">&#128106;</div>
+        </div>
+        <div class="placeholder-caption">
+          <h4>Family &amp; Group Feasts</h4>
+          <p>Generous portions designed to share comfortably across 3 to 6 diners.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Combo Cards Showcase Grid (All 9 Required Combos) -->
+  <section class="section" style="padding-top: 1rem;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">All-In-One Deals</span>
+        <h2>Select Your Value Pack</h2>
+        <p class="section-subtitle">Clearly labeled illustrative prices &amp; demo offers. Add directly to your cart.</p>
+      </div>
+
+      <div class="combo-grid">
+        <!-- 1. Single Meal Combo -->
+        <div class="combo-card">
+          <span class="combo-ribbon">Solo Value</span>
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: food-combo.jpg -->
+            <div class="img-placeholder placeholder-food-combo ratio-4x3" role="img" aria-label="Single Meal Combo placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> food-combo.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127857;</div></div>
+            </div>
+          </div>
+          <div class="food-card-body">
+            <h4 class="food-title">Single Meal Combo</h4>
+            <p class="food-desc">A perfectly portioned individual meal designed for busy workdays and hearty solo dining.</p>
+            <div class="combo-items-list">
+              <h5>Included Items:</h5>
+              <ul>
+                <li>Paneer Butter Masala (200ml)</li>
+                <li>Steamed Basmati Rice &amp; 2 Rotis</li>
+                <li>Fresh Lime Soda (300ml)</li>
+              </ul>
+            </div>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Illustrative Price</span>
+                <span class="food-price">&#8377;239</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="combo-single" data-name="Single Meal Combo" data-price="239" data-category="combos">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Lunch Combo -->
+        <div class="combo-card">
+          <span class="combo-ribbon">Midday Fuel</span>
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: food-combo.jpg -->
+            <div class="img-placeholder placeholder-food-combo ratio-4x3" role="img" aria-label="Lunch Combo placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> food-combo.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127857;</div></div>
+            </div>
+          </div>
+          <div class="food-card-body">
+            <h4 class="food-title">Lunch Combo</h4>
+            <p class="food-desc">Light yet energizing midday meal combo balanced with protein, greens, and gentle carbs.</p>
+            <div class="combo-items-list">
+              <h5>Included Items:</h5>
+              <ul>
+                <li>Yellow Dal Tadka &amp; Aloo Gobi</li>
+                <li>Jeera Pulao &amp; 3 Phulkas</li>
+                <li>Garden Salad &amp; Roasted Papad</li>
+              </ul>
+            </div>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Illustrative Price</span>
+                <span class="food-price">&#8377;219</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="combo-lunch" data-name="Lunch Combo" data-price="219" data-category="combos">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Dinner Combo -->
+        <div class="combo-card">
+          <span class="combo-ribbon">Evening Feast</span>
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: food-combo.jpg -->
+            <div class="img-placeholder placeholder-food-combo ratio-4x3" role="img" aria-label="Dinner Combo placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> food-combo.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127857;</div></div>
+            </div>
+          </div>
+          <div class="food-card-body">
+            <h4 class="food-title">Dinner Combo</h4>
+            <p class="food-desc">Indulgent evening dinner box combining a rich north Indian curry with dessert treat.</p>
+            <div class="combo-items-list">
+              <h5>Included Items:</h5>
+              <ul>
+                <li>Dal Makhani &amp; Mix Veg Handi</li>
+                <li>2 Butter Naans &amp; Steamed Rice</li>
+                <li>Warm Chocolate Brownie</li>
+              </ul>
+            </div>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Illustrative Price</span>
+                <span class="food-price">&#8377;279</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="combo-dinner" data-name="Dinner Combo" data-price="279" data-category="combos">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Biryani Combo -->
+        <div class="combo-card">
+          <span class="combo-ribbon">Bestseller</span>
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: food-combo.jpg -->
+            <div class="img-placeholder placeholder-food-combo ratio-4x3" role="img" aria-label="Biryani Combo placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> food-combo.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127834;</div></div>
+            </div>
+          </div>
+          <div class="food-card-body">
+            <h4 class="food-title">Biryani Combo</h4>
+            <p class="food-desc">Aromatic dum biryani paired with crisp starters and a refreshing beverage.</p>
+            <div class="combo-items-list">
+              <h5>Included Items:</h5>
+              <ul>
+                <li>Chicken or Veg Dum Biryani (500g)</li>
+                <li>Burani Garlic Raita &amp; Salan Gravy</li>
+                <li>Fresh Lime Soda (300ml)</li>
+              </ul>
+            </div>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Illustrative Price</span>
+                <span class="food-price">&#8377;289</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="combo-biryani" data-name="Biryani Combo" data-price="289" data-category="combos">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Burger & Fries Combo -->
+        <div class="combo-card">
+          <span class="combo-ribbon">Fast Food Duo</span>
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: food-combo.jpg -->
+            <div class="img-placeholder placeholder-food-combo ratio-4x3" role="img" aria-label="Burger & Fries Combo placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> food-combo.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127828;</div></div>
+            </div>
+          </div>
+          <div class="food-card-body">
+            <h4 class="food-title">Burger &amp; Fries Combo</h4>
+            <p class="food-desc">Juicy grilled burger with a full basket of salted french fries and chilled beverage.</p>
+            <div class="combo-items-list">
+              <h5>Included Items:</h5>
+              <ul>
+                <li>Classic Veg or Chicken Burger</li>
+                <li>Large Peri-Peri French Fries</li>
+                <li>Chilled Cold Coffee or Soft Drink</li>
+              </ul>
+            </div>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Illustrative Price</span>
+                <span class="food-price">&#8377;249</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="combo-burger" data-name="Burger & Fries Combo" data-price="249" data-category="combos">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Chinese Combo -->
+        <div class="combo-card">
+          <span class="combo-ribbon">Wok Delight</span>
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: food-combo.jpg -->
+            <div class="img-placeholder placeholder-food-combo ratio-4x3" role="img" aria-label="Chinese Combo placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> food-combo.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127836;</div></div>
+            </div>
+          </div>
+          <div class="food-card-body">
+            <h4 class="food-title">Chinese Combo</h4>
+            <p class="food-desc">The ultimate Indo-Chinese pairing of steaming wok rice or noodles with spicy gravy.</p>
+            <div class="combo-items-list">
+              <h5>Included Items:</h5>
+              <ul>
+                <li>Hakka Noodles or Veg Fried Rice</li>
+                <li>Chilli Paneer or Chicken Manchurian Gravy</li>
+                <li>2 Crispy Spring Rolls</li>
+              </ul>
+            </div>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Illustrative Price</span>
+                <span class="food-price">&#8377;269</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="combo-chinese" data-name="Chinese Combo" data-price="269" data-category="combos">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Couple Meal Pack -->
+        <div class="combo-card">
+          <span class="combo-ribbon">For Two</span>
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: family-pack.jpg -->
+            <div class="img-placeholder placeholder-family-pack ratio-4x3" role="img" aria-label="Couple Meal Pack placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> family-pack.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#128107;</div></div>
+            </div>
+          </div>
+          <div class="food-card-body">
+            <h4 class="food-title">Couple Meal Pack</h4>
+            <p class="food-desc">A generous banquet for 2 people with multi-curries, breads, sides, and sweet desserts.</p>
+            <div class="combo-items-list">
+              <h5>Included Items:</h5>
+              <ul>
+                <li>Paneer Butter Masala + Dal Tadka</li>
+                <li>6 Butter Rotis + Jeera Rice (500ml)</li>
+                <li>2 Chocolate Brownies</li>
+              </ul>
+            </div>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Illustrative Price</span>
+                <span class="food-price">&#8377;449</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="pack-couple" data-name="Couple Meal Pack" data-price="449" data-category="combos">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Family Food Pack -->
+        <div class="combo-card">
+          <span class="combo-ribbon">Family Feast</span>
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: family-pack.jpg -->
+            <div class="img-placeholder placeholder-family-pack ratio-4x3" role="img" aria-label="Family Food Pack placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> family-pack.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#128106;</div></div>
+            </div>
+          </div>
+          <div class="food-card-body">
+            <h4 class="food-title">Family Food Pack</h4>
+            <p class="food-desc">Curated complete family dinner pack with ample portions for 4 people with zero hassle.</p>
+            <div class="combo-items-list">
+              <h5>Included Items:</h5>
+              <ul>
+                <li>2 Curries (Paneer Butter + Dal Makhani)</li>
+                <li>8 Butter Rotis + 1 Large Jeera Rice Handi</li>
+                <li>4 Chocolate Pastries &amp; Raita</li>
+              </ul>
+            </div>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Illustrative Price</span>
+                <span class="food-price">&#8377;699</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="pack-family-food" data-name="Family Food Pack" data-price="699" data-category="combos">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Group Sharing Pack -->
+        <div class="combo-card">
+          <span class="combo-ribbon">Party Size</span>
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: family-pack.jpg -->
+            <div class="img-placeholder placeholder-family-pack ratio-4x3" role="img" aria-label="Group Sharing Pack placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> family-pack.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127881;</div></div>
+            </div>
+          </div>
+          <div class="food-card-body">
+            <h4 class="food-title">Group Sharing Pack</h4>
+            <p class="food-desc">Super-sized sharing pack suitable for 5 to 6 persons, celebrations, or office parties.</p>
+            <div class="combo-items-list">
+              <h5>Included Items:</h5>
+              <ul>
+                <li>Large Biryani Handi (1.5kg) + 2 Large Curries</li>
+                <li>12 Butter Rotis + 6 Fresh Lime Sodas</li>
+                <li>6 Belgian Chocolate Brownies</li>
+              </ul>
+            </div>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Illustrative Price</span>
+                <span class="food-price">&#8377;1099</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="pack-group" data-name="Group Sharing Pack" data-price="1099" data-category="combos">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-col footer-brand">
+          <a href="index.html" class="brand-logo">
+            <div class="brand-icon">CK</div>
+            <div class="brand-text">
+              <span class="brand-title">CLOUD KITCHEN</span>
+              <span class="brand-subtitle">ONLINE FOOD ORDERING</span>
+            </div>
+          </a>
+          <p>
+            A modern cloud kitchen demonstration website engineered with clean semantic HTML5, pure CSS3, and vanilla JavaScript. Delivering freshly prepared food experiences directly to consumers.
+          </p>
+          <div class="footer-badge-list">
+            <span class="footer-pill">Pure Frontend Showcase</span>
+            <span class="footer-pill">10 Standard Image Slots</span>
+            <span class="footer-pill">Client-Side Cart</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Food Menu</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Menu Categories</h4>
+          <ul class="footer-links">
+            <li><a href="indian-food.html">Indian Thalis &amp; Meals</a></li>
+            <li><a href="indian-food.html">Royal Dum Biryani</a></li>
+            <li><a href="fast-food.html">Pizzas &amp; Burgers</a></li>
+            <li><a href="fast-food.html">Wok Chinese Specials</a></li>
+            <li><a href="combos.html">Combos &amp; Family Packs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Demonstration Details</h4>
+          <div class="footer-contact-item">
+            <span>&#128222;</span>
+            <div>Demo Phone: +91 90000 00000</div>
+          </div>
+          <div class="footer-contact-item">
+            <span>&#9993;</span>
+            <div>Demo Email: demo@example.com</div>
+          </div>
+          <div class="footer-contact-item">
+            <span>&#128337;</span>
+            <div>Kitchen Hours: 11:00 AM &ndash; 11:00 PM</div>
+          </div>
+          <div class="footer-contact-item">
+            <span>&#128205;</span>
+            <div>Fictional Location: Central Kitchen Hub, India</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <div class="footer-disclaimer-note">
+          &copy; 2026 CLOUD KITCHEN. Category demonstration website. All prices, brands, images, and reviews are illustrative demo content.
+        </div>
+        <div>
+          <span>HTML5 &bull; CSS3 &bull; Vanilla JS</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-out Cart Drawer -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Demo food shopping cart">
+    <div class="cart-header">
+      <h3>Your Demo Cart</h3>
+      <button class="cart-close-btn" id="cartCloseBtn" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="cart-items-container" id="cartItemsList"></div>
+
+    <div class="cart-empty-state" id="cartEmptyState">
+      <div class="cart-empty-icon">&#128722;</div>
+      <h4>Your cart is empty</h4>
+      <p style="font-size: 0.85rem; color: #606f7b; margin-bottom: 1.25rem;">Looks like you haven't added any delicious food items yet.</p>
+      <a href="menu.html" class="btn btn-primary btn-sm">Explore Food Menu</a>
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-summary-line">
+        <span>Subtotal</span>
+        <strong id="cartSubtotal">&#8377;0</strong>
+      </div>
+      <div class="cart-summary-line">
+        <span>Kitchen Packaging &amp; GST (5%)</span>
+        <strong id="cartTax">&#8377;0</strong>
+      </div>
+      <div class="cart-summary-total">
+        <span>Total Payable (Demo)</span>
+        <span style="color: var(--color-orange);" id="cartTotal">&#8377;0</span>
+      </div>
+      <button class="btn btn-primary btn-block" id="checkoutBtn" disabled>
+        Proceed to Demo Checkout
+      </button>
+      <div class="demo-order-badge">
+        &#128274; 100% Frontend Demonstration &bull; No Real Charge
+      </div>
+    </div>
+  </aside>
+
+  <!-- Checkout & Confirmation Modal -->
+  <div class="modal-overlay" id="checkoutModalOverlay">
+    <div class="modal-box">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+      <div id="modalContentArea"></div>
+    </div>
+  </div>
+
+  <!-- Scroll To Top Button -->
+  <button class="scroll-top-btn" id="scrollTopBtn" title="Back to top" aria-label="Back to top">&#8593;</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

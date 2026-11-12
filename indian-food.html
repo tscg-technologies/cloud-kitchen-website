@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Food &amp; Biryani - CLOUD KITCHEN</title>
+  <meta name="description" content="Authentic Indian Thalis, North and South Indian home-style meals, paneer dishes, and royal dum biryani handis freshly cooked to order.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <span class="announcement-badge">Signature Indian Kitchen</span>
+    <span>Authentic clay pot spices, slow dum cooking &amp; farm-fresh paneer curries. All prices are demo prices.</span>
+  </div>
+
+  <!-- Global Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo" aria-label="CLOUD KITCHEN Homepage">
+        <div class="brand-icon">CK</div>
+        <div class="brand-text">
+          <span class="brand-title">CLOUD KITCHEN</span>
+          <span class="brand-subtitle">ONLINE FOOD ORDERING</span>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="menu.html" class="nav-link">Food Menu</a>
+        <a href="indian-food.html" class="nav-link active">Indian Food &amp; Biryani</a>
+        <a href="fast-food.html" class="nav-link">Fast Food &amp; Chinese</a>
+        <a href="combos.html" class="nav-link">Combos &amp; Family Packs</a>
+        <a href="how-it-works.html" class="nav-link">How It Works</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="cart-btn js-cart-toggle" aria-label="View demo cart">
+          <span class="cart-icon-wrapper">
+            &#128722;
+            <span class="cart-count">0</span>
+          </span>
+          <span>Cart</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header Banner -->
+  <section class="section" style="padding: 3.5rem 0 2rem; background: #ffffff; border-bottom: 1px solid var(--border-color);">
+    <div class="container" style="text-align: center; max-width: 750px;">
+      <span class="section-tag">Desi Flavors &bull; Dum Traditions</span>
+      <h1>Indian Food &amp; Biryani Specialties</h1>
+      <p style="font-size: 1.1rem; margin-top: 0.75rem;">
+        From traditional Indian thali meals and Punjabi favorites to slow-cooked fragrant dum biryanis and large sharing pots.
+      </p>
+    </div>
+  </section>
+
+  <!-- Showcase Hero Features with Planned Placeholders 2 & 3 -->
+  <section class="section" style="padding-bottom: 2rem;">
+    <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+      <!-- Planned Image Slot 2: indian-meals -->
+      <!-- PLANNED_IMAGE: indian-meals.jpg -->
+      <div class="img-placeholder placeholder-indian-meals ratio-16x9" role="img" aria-label="Indian thali and traditional meal presentation">
+        <div class="placeholder-badge"><span class="dot"></span> indian-meals.jpg</div>
+        <div class="placeholder-graphic">
+          <div class="graphic-icon">&#127858;</div>
+        </div>
+        <div class="placeholder-caption">
+          <h4>Traditional Indian Thali</h4>
+          <p>Wholesome multi-dish thalis featuring rich gravies, dal, fresh rotis &amp; rice.</p>
+        </div>
+      </div>
+
+      <!-- Planned Image Slot 3: biryani -->
+      <!-- PLANNED_IMAGE: biryani.jpg -->
+      <div class="img-placeholder placeholder-biryani ratio-16x9" role="img" aria-label="Delicious biryani food presentation">
+        <div class="placeholder-badge"><span class="dot"></span> biryani.jpg</div>
+        <div class="placeholder-graphic">
+          <div class="graphic-icon">&#127834;</div>
+        </div>
+        <div class="placeholder-caption">
+          <h4>Royal Dum Biryani</h4>
+          <p>Fragrant aged basmati rice layered with caramelized onions, saffron &amp; tender spices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Filter Bar -->
+  <section class="section" style="padding-top: 1rem;">
+    <div class="container">
+      <div class="menu-controls">
+        <div class="search-bar-wrapper">
+          <span class="search-icon">&#128269;</span>
+          <input type="text" id="foodSearchInput" class="search-input" placeholder="Search Indian dishes, thalis, paneer, biryani..." aria-label="Search Indian dishes">
+        </div>
+        <div class="filter-pills">
+          <button class="filter-btn active" data-filter="all">All Indian &amp; Biryani (8)</button>
+          <button class="filter-btn" data-filter="thalis">Thali Meals</button>
+          <button class="filter-btn" data-filter="biryani">Biryani Varieties</button>
+          <button class="filter-btn" data-filter="paneer">Paneer Dishes</button>
+        </div>
+      </div>
+
+      <!-- Dish Cards -->
+      <div class="food-grid">
+        <!-- 1. Veg Thali -->
+        <div class="food-card js-food-item" data-category="thalis">
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: indian-meals.jpg -->
+            <div class="img-placeholder placeholder-indian-meals ratio-4x3" role="img" aria-label="Veg Thali placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> indian-meals.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127858;</div></div>
+            </div>
+            <div class="diet-indicator veg" title="Vegetarian"></div>
+          </div>
+          <div class="food-card-body">
+            <span class="food-category-label">Thali Meals</span>
+            <h4 class="food-title">Veg Thali</h4>
+            <p class="food-desc">Seasonal mixed veg sabzi, yellow dal tadka, 2 whole wheat rotis, steamed rice, and fresh pickle.</p>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Demo Price</span>
+                <span class="food-price">&#8377;179</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="ind-veg-thali" data-name="Veg Thali" data-price="179" data-category="thalis">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Paneer Meal -->
+        <div class="food-card js-food-item" data-category="paneer">
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: indian-meals.jpg -->
+            <div class="img-placeholder placeholder-indian-meals ratio-4x3" role="img" aria-label="Paneer Meal placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> indian-meals.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127858;</div></div>
+            </div>
+            <div class="diet-indicator veg" title="Vegetarian"></div>
+          </div>
+          <div class="food-card-body">
+            <span class="food-category-label">Paneer Dishes</span>
+            <h4 class="food-title">Paneer Meal</h4>
+            <p class="food-desc">Creamy cottage cheese butter masala, dal makhani, 2 tandoori rotis, aromatic jeera rice, and sliced onions.</p>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Demo Price</span>
+                <span class="food-price">&#8377;199</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="ind-paneer-meal" data-name="Paneer Meal" data-price="199" data-category="paneer">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. North Indian Meal -->
+        <div class="food-card js-food-item" data-category="thalis">
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: indian-meals.jpg -->
+            <div class="img-placeholder placeholder-indian-meals ratio-4x3" role="img" aria-label="North Indian Meal placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> indian-meals.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127858;</div></div>
+            </div>
+            <div class="diet-indicator veg" title="Vegetarian"></div>
+          </div>
+          <div class="food-card-body">
+            <span class="food-category-label">Thali Meals</span>
+            <h4 class="food-title">North Indian Meal</h4>
+            <p class="food-desc">Spicy Punjabi chole, rich dal makhani, 2 butter rotis, vegetable pulao rice, and mint coriander dip.</p>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Demo Price</span>
+                <span class="food-price">&#8377;219</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="ind-north-meal" data-name="North Indian Meal" data-price="219" data-category="thalis">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. South Indian Meal -->
+        <div class="food-card js-food-item" data-category="thalis">
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: indian-meals.jpg -->
+            <div class="img-placeholder placeholder-indian-meals ratio-4x3" role="img" aria-label="South Indian Meal placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> indian-meals.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127858;</div></div>
+            </div>
+            <div class="diet-indicator veg" title="Vegetarian"></div>
+          </div>
+          <div class="food-card-body">
+            <span class="food-category-label">Thali Meals</span>
+            <h4 class="food-title">South Indian Meal</h4>
+            <p class="food-desc">Steamed rice, aromatic drumstick sambar, spicy rasam, poriyal vegetable, curd, appalam, and pickle.</p>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Demo Price</span>
+                <span class="food-price">&#8377;159</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="ind-south-meal" data-name="South Indian Meal" data-price="159" data-category="thalis">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Dal Rice Combo -->
+        <div class="food-card js-food-item" data-category="thalis">
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: indian-meals.jpg -->
+            <div class="img-placeholder placeholder-indian-meals ratio-4x3" role="img" aria-label="Dal Rice Combo placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> indian-meals.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127858;</div></div>
+            </div>
+            <div class="diet-indicator veg" title="Vegetarian"></div>
+          </div>
+          <div class="food-card-body">
+            <span class="food-category-label">Rice Combos</span>
+            <h4 class="food-title">Dal Rice Combo</h4>
+            <p class="food-desc">Comforting home-style ghee dal tadka paired with fragrant steamed basmati rice and roasted papad.</p>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Demo Price</span>
+                <span class="food-price">&#8377;129</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="ind-dal-rice" data-name="Dal Rice Combo" data-price="129" data-category="thalis">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Paneer Biryani -->
+        <div class="food-card js-food-item" data-category="paneer">
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: biryani.jpg -->
+            <div class="img-placeholder placeholder-biryani ratio-4x3" role="img" aria-label="Paneer Biryani placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> biryani.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127834;</div></div>
+            </div>
+            <div class="diet-indicator veg" title="Vegetarian"></div>
+          </div>
+          <div class="food-card-body">
+            <span class="food-category-label">Biryani Varieties</span>
+            <h4 class="food-title">Paneer Biryani</h4>
+            <p class="food-desc">Marinated cottage cheese cubes roasted in tandoor masala and dum-cooked with fragrant spices.</p>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Demo Price</span>
+                <span class="food-price">&#8377;199</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="ind-paneer-biryani" data-name="Paneer Biryani" data-price="199" data-category="biryani">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Special Chicken Biryani -->
+        <div class="food-card js-food-item" data-category="biryani">
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: biryani.jpg -->
+            <div class="img-placeholder placeholder-biryani ratio-4x3" role="img" aria-label="Special Chicken Biryani placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> biryani.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#127834;</div></div>
+            </div>
+            <div class="diet-indicator non-veg" title="Non-Vegetarian"></div>
+          </div>
+          <div class="food-card-body">
+            <span class="food-category-label">Biryani Varieties</span>
+            <h4 class="food-title">Special Chicken Biryani</h4>
+            <p class="food-desc">Extra chicken portion, slow-roasted egg, golden brown cashews, and rich salan gravy on the side.</p>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Demo Price</span>
+                <span class="food-price">&#8377;269</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="ind-special-biryani" data-name="Special Chicken Biryani" data-price="269" data-category="biryani">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Family Biryani Pack -->
+        <div class="food-card js-food-item" data-category="biryani">
+          <div class="food-card-header">
+            <!-- PLANNED_IMAGE: family-pack.jpg -->
+            <div class="img-placeholder placeholder-family-pack ratio-4x3" role="img" aria-label="Family Biryani Pack placeholder">
+              <div class="placeholder-badge"><span class="dot"></span> family-pack.jpg</div>
+              <div class="placeholder-graphic"><div class="graphic-icon">&#128106;</div></div>
+            </div>
+            <div class="diet-indicator non-veg" title="Non-Vegetarian"></div>
+          </div>
+          <div class="food-card-body">
+            <span class="food-category-label">Family Biryani Packs</span>
+            <h4 class="food-title">Family Biryani Pack</h4>
+            <p class="food-desc">Generous 1.5kg dum biryani handi suitable for 3-4 persons, served with 2 portions raita and mirchi ka salan.</p>
+            <div class="food-card-footer">
+              <div class="price-box">
+                <span class="price-label">Demo Price</span>
+                <span class="food-price">&#8377;499</span>
+              </div>
+              <button class="add-cart-btn js-add-to-cart" data-id="ind-family-biryani" data-name="Family Biryani Pack" data-price="499" data-category="biryani">&#43; Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="noResultsMessage" style="display: none; text-align: center; padding: 3rem 1rem;">
+        <h3>No matching Indian dishes found</h3>
+        <p style="color: #606f7b;">Try adjusting your search query or reset filter to "All Indian &amp; Biryani".</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-col footer-brand">
+          <a href="index.html" class="brand-logo">
+            <div class="brand-icon">CK</div>
+            <div class="brand-text">
+              <span class="brand-title">CLOUD KITCHEN</span>
+              <span class="brand-subtitle">ONLINE FOOD ORDERING</span>
+            </div>
+          </a>
+          <p>
+            A modern cloud kitchen demonstration website engineered with clean semantic HTML5, pure CSS3, and vanilla JavaScript. Delivering freshly prepared food experiences directly to consumers.
+          </p>
+          <div class="footer-badge-list">
+            <span class="footer-pill">Pure Frontend Showcase</span>
+            <span class="footer-pill">10 Standard Image Slots</span>
+            <span class="footer-pill">Client-Side Cart</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Food Menu</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Menu Categories</h4>
+          <ul class="footer-links">
+            <li><a href="indian-food.html">Indian Thalis &amp; Meals</a></li>
+            <li><a href="indian-food.html">Royal Dum Biryani</a></li>
+            <li><a href="fast-food.html">Pizzas &amp; Burgers</a></li>
+            <li><a href="fast-food.html">Wok Chinese Specials</a></li>
+            <li><a href="combos.html">Combos &amp; Family Packs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Demonstration Details</h4>
+          <div class="footer-contact-item">
+            <span>&#128222;</span>
+            <div>Demo Phone: +91 90000 00000</div>
+          </div>
+          <div class="footer-contact-item">
+            <span>&#9993;</span>
+            <div>Demo Email: demo@example.com</div>
+          </div>
+          <div class="footer-contact-item">
+            <span>&#128337;</span>
+            <div>Kitchen Hours: 11:00 AM &ndash; 11:00 PM</div>
+          </div>
+          <div class="footer-contact-item">
+            <span>&#128205;</span>
+            <div>Fictional Location: Central Kitchen Hub, India</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-flex">
+        <div class="footer-disclaimer-note">
+          &copy; 2026 CLOUD KITCHEN. Category demonstration website. All prices, brands, images, and reviews are illustrative demo content.
+        </div>
+        <div>
+          <span>HTML5 &bull; CSS3 &bull; Vanilla JS</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-out Cart Drawer -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Demo food shopping cart">
+    <div class="cart-header">
+      <h3>Your Demo Cart</h3>
+      <button class="cart-close-btn" id="cartCloseBtn" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="cart-items-container" id="cartItemsList"></div>
+
+    <div class="cart-empty-state" id="cartEmptyState">
+      <div class="cart-empty-icon">&#128722;</div>
+      <h4>Your cart is empty</h4>
+      <p style="font-size: 0.85rem; color: #606f7b; margin-bottom: 1.25rem;">Looks like you haven't added any delicious food items yet.</p>
+      <a href="menu.html" class="btn btn-primary btn-sm">Explore Food Menu</a>
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-summary-line">
+        <span>Subtotal</span>
+        <strong id="cartSubtotal">&#8377;0</strong>
+      </div>
+      <div class="cart-summary-line">
+        <span>Kitchen Packaging &amp; GST (5%)</span>
+        <strong id="cartTax">&#8377;0</strong>
+      </div>
+      <div class="cart-summary-total">
+        <span>Total Payable (Demo)</span>
+        <span style="color: var(--color-orange);" id="cartTotal">&#8377;0</span>
+      </div>
+      <button class="btn btn-primary btn-block" id="checkoutBtn" disabled>
+        Proceed to Demo Checkout
+      </button>
+      <div class="demo-order-badge">
+        &#128274; 100% Frontend Demonstration &bull; No Real Charge
+      </div>
+    </div>
+  </aside>
+
+  <!-- Checkout & Confirmation Modal -->
+  <div class="modal-overlay" id="checkoutModalOverlay">
+    <div class="modal-box">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+      <div id="modalContentArea"></div>
+    </div>
+  </div>
+
+  <!-- Scroll To Top Button -->
+  <button class="scroll-top-btn" id="scrollTopBtn" title="Back to top" aria-label="Back to top">&#8593;</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
